@@ -1,0 +1,221 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+	background: #EFEFEF;
+}
+
+a, a:hover, a img {
+	text-decoration: none;
+	border: none;
+}
+a, a:visited, a:active {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;	
+}
+#bigwrapper {
+	width: 100%;
+	height: 40px;
+	background: #6699CC;
+	
+	-webkit-box-shadow: 0px 0px 20px 2px gray;
+	-moz-box-shadow: 0px 0px 20px 2px gray;
+	-o-box-shadow: 0px 0px 20px 2px gray;
+	box-shadow: 0px 0px 20px 2px gray;
+	
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#wrapper {
+	margin:-10px auto;
+	padding:0;
+	width:960px;
+}
+.header{
+	height:90px;
+	padding:0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.logo_container {
+}
+.logo {
+	margin:0px 0px 0px 5px;
+	float: left;
+	color: white;
+	font-weight:bold;
+	font-size: 16px;	
+	background: #6699CC;
+	padding: 8px 0px 0px 10px;
+	
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.right_header_container {
+	float: right;
+	background: #6699CC;
+	height: 90px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.right_header {
+	float: right;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right: 15px;
+	font-size: 11px;
+	background: #9FBFDF;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	color: white;
+}
+.right_header a, .right_header a:visited {
+	color: white;
+}
+.login {
+	float: right;
+	margin-left: 15px;
+	margin-top: 40px;
+	margin-right: 15px;
+	font-size: 11px;
+	background: #9FBFDF;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	color: white;
+}
+.right_header a {
+	color: white;	
+}
+.nav {		
+	margin: -50px auto;
+	margin-left: 150px;
+	margin-bottom: 30px;
+	background: #6699CC;
+	height:40px;
+	width: 550px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border--left-radius: 10px;
+	
+	-webkit-box-shadow: 0px 0px 20px 2px gray;
+	-moz-box-shadow: 0px 0px 20px 2px gray;
+	-o-box-shadow: 0px 0px 20px 2px gray;
+	box-shadow: 0px 0px 20px 2px gray;
+	
+	x-index: 10;
+}
+.nav a {
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	height: 100%;
+	
+	-moz-transition: all .35s;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+}
+.nav ul {
+	line-height: 1.5 em;
+	margin: 0px;
+}
+.nav li {
+	-moz-transition: all .35s;
+	-webkit-transition: all .35s;
+	-o-transition: all .35s;
+	transition: all .35s;
+	
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+	height: 20px;
+}
+.nav li:hover {
+	background:#194D80;	
+}
+.nav #active {
+	background:#2266AA;
+	border-bottom: 2px solid aqua;
+	height: 18px;
+}
+.nav li:hover a {
+	color: white;	
+}
+.menu {
+	width: 600px;
+	border-bottom-left-radius: 20px;
+}
+.con{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+	margin: 0px auto;
+	width: 850px;
+	margin-top: 20px;
+	text-align: justify;
+	background: white;
+	padding: 20px 30px 20px 30px;
+	min-height: 380px;
+}
+.footer{
+	margin-top: 25px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	
+	-webkit-box-shadow: 2px 2px 20px black ;
+	-moz-box-shadow: 2px 2px 20px black ;
+	-o-box-shadow: 2px 2px 20px black ;
+	box-shadow: 2px 2px 20px black ;
+
+	background: #6699CC;	
+	padding-top: 20px;
+	height:30px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+#friends a {
+	text-decoration: none;
+	color: blue;
+}
+#friends a:hover {
+	text-decoration:underline;
+}
+#profile_menu {
+	list-style-type: none;
+}
+#profile_menu li {
+	display: inline;	
+}
+
+.clear_both {
+	clear: both;	
+}
+
+#login_form input[type=text], #login_form input[type=password]  {
+	width: 150px;
+	padding: 5px 10px;
+	margin-bottom: 6px;
+	margin-left: 8px;
+}
+#login_form input[type=submit], .paddedButton {
+	width: 100px;
+	margin-bottom: 6px;
+	margin-left: 8px;
+	padding: 8px 10px;
+}
+textSmall {
+	margin-bottom: 6px;
+	margin-left: 5px;
+	color: gray;
+	font-size: 11px;
+}
+gray {
+	color: gray;	
+}
